@@ -426,9 +426,12 @@ Copyright &copy; 2016 - <script>document.write(new Date().getFullYear());</scrip
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 <!-- Site Control Input -->
-   <script>
-  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
-    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
-  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/152611/script.js');
+<script type="text/javascript">
+(function(w, d, s, u) {
+	w.Verloop = function(c) { w.Verloop._.push(c) }; w.Verloop._ = []; w.Verloop.url = u;
+	var h = d.getElementsByTagName(s)[0], j = d.createElement(s); j.async = true;
+	j.src = 'https://myfdchat.verloop.io/livechat/script.min.js?v=v1.12.5';
+	h.parentNode.insertBefore(j, h);
+})(window, document, 'script', 'https://myfdchat.verloop.io/livechat');
 </script>
 </body>
